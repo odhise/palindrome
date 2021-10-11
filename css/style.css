@@ -1,0 +1,63 @@
+body{
+    background-color: blueviolet;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.palindrome-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.palindrome-checker{
+    justify-content: center;
+    border: 2px solid wheat;
+    padding: 11em;
+    text-align: center;
+}
+
+.palindrome-checker h1 {
+    font-size: 3em;
+    color: lightseagreen;
+}
+.text{
+padding: 2em 15em;
+margin: 2em;
+border-radius: 2em;
+}
+.btn{
+    background-color: teal;
+ padding:1em 15em; 
+ margin-left: 3em; 
+ text-align: center;
+ border-radius: 2em;
+ color:white
+
+}
+.p{
+    font-size: 1em;
+    font-weight: 400;
+    color:hotpink;
+    font-size: 2em;
+
+}
+#message{
+    font-size: 2em;
+    padding: 1em;
+}
+
+
+.success{
+    color:green;
+}
+.error{
+    color:red;
+}
+
